@@ -63,7 +63,7 @@ div.water-bottle img{
 }
 
 
-@media(max-width:550px){
+@media(max-width:575px){
     header{
         background: linear-gradient(to right,#00064a99,#0d00ff7c,#00d9ff);
     }
@@ -77,11 +77,15 @@ div.water-bottle img{
     }
     .home-h1{
         font-size: 1.6rem;
-        width: 170px; 
+        width: 50%;
+        margin: 2rem 7rem 1rem;
+        text-align: center; 
     
     }
     .home-h1-p{
-        
+        margin: 2rem 3rem 1rem;
+        width: 50%;
+        height: 10px;
         text-align: center;
     }
     div.water-bottle-container{
@@ -89,12 +93,9 @@ div.water-bottle img{
          padding: 1px;
         
     }
-    div.water-bottle img,.col-md-2{
-        margin: 0;
-        max-width: 0rem;
-        display: flex;
-        border: 1px solid red;
-        height: auto;   
+    div.water-bottle img{
+        opacity: 0;
+         
         
     }
 
@@ -115,19 +116,25 @@ div.water-bottle img{
     }
     .home-h1{
         font-size: 2.5rem;
-        width: 170px; 
+        width: 70%;
+        
+        margin: 3rem 1rem;
     
     }
     .home-h1-p{
-        
+        margin: 4rem 3rem;
+        width: 200px;
+        height: 10px;
         text-align: center;
     }
     div.water-bottle-container img{
         display: flex;
+        max-width: 50%;
+        margin: 0 8rem;
         
     }
     div.water-bottle img{
-        max-width: 10px;
+        max-width: 50%;
         display: flex;
         text-align: center;
     }
@@ -135,10 +142,11 @@ div.water-bottle img{
 
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 992px) {
     .home-h1-p{
-        width: 200px;
-        height: 10px;
+        width: 300px;
+        height: 100px;
+        text-align: center;
     }
     
     div.water-bottle-container{
