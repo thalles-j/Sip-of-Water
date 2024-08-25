@@ -52,16 +52,54 @@ body{
     
 }
 div.water-bottle-container{
-    display: flex;
     padding: 2rem;
 
 }
 div.water-bottle img{
-    width: 172px;
+    width: 162px;
     display: flex;
     border: 1px solid red;
     height: auto;   
 }
+
+
+@media(max-width:550px){
+    header{
+        background: linear-gradient(to right,#00064a99,#0d00ff7c,#00d9ff);
+    }
+    #home{
+        background: linear-gradient(to right,#00064a99,#0d00ff7c,#00d9ff);
+        margin: 0;
+        height: 64vh;
+        border-radius: 0rem;
+        border: none;
+    
+    }
+    .home-h1{
+        font-size: 1.6rem;
+        width: 170px; 
+    
+    }
+    .home-h1-p{
+        
+        text-align: center;
+    }
+    div.water-bottle-container{
+         margin-top: 2px;
+         padding: 1px;
+        
+    }
+    div.water-bottle img,.col-md-2{
+        margin: 0;
+        max-width: 0rem;
+        display: flex;
+        border: 1px solid red;
+        height: auto;   
+        
+    }
+
+}
+
 
 @media(max-width:790px){
     header{
@@ -77,55 +115,27 @@ div.water-bottle img{
     }
     .home-h1{
         font-size: 2.5rem;
-        width: 240px; 
+        width: 170px; 
     
     }
     .home-h1-p{
         
         text-align: center;
     }
-    div.water-bottle-container{
+    div.water-bottle-container img{
         display: flex;
-        margin-top: 2rem;
-        padding: 2rem; 
-    }
-    div.water-bottle img{
-        max-width: 76px;
-        width: 80px;
-        display: flex;
-        flex-direction: row;
-        border: 1px solid red;
-          
-    }
-    
-
-}
-@media (max-width: 802px){
-    #home{
-       
-        border: none;
-    
-    }
-    .home-h1{
         
-        font-size: 2.5rem;
-        display: inline-flex;
-    
-    }
-    div.water-bottle-container{
-        margin-top: 5rem;
-        padding: 5rem; 
     }
     div.water-bottle img{
-        max-width: 120px;
+        max-width: 10px;
+        display: flex;
+        text-align: center;
     }
-    .home-h1-p{
-        width: 200px;
-        height: 10px;
-}
+    
+
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1028px) {
     .home-h1-p{
         width: 200px;
         height: 10px;
@@ -138,13 +148,10 @@ div.water-bottle img{
     
     }
     div.water-bottle img{
-        margin-right: 1rem;
-        width: 100px;
+        max-width: 108px;
+        width: 90px;
         display: flex;
-        border: 1px solid red;
-        height: auto;
-        
-        
+        text-align: center;
     }
 
 }
