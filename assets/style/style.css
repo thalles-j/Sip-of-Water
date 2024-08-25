@@ -24,7 +24,7 @@ body{
 }
 
 #home{
-    background: linear-gradient(to right,#00064a99,#0d00ff7c,#00d9ff);
+    background: linear-gradient(to right,#00f1e199,#0d00ff7c,#00d9ff);
     margin: 1rem 3rem 2rem ;
     height: 85vh;
     border-radius: 2rem;
@@ -72,10 +72,10 @@ div.water-bottle img{
 
 @media(max-width:575px){
     header{
-        background: linear-gradient(to right,#00064a99,#0d00ff7c,#00d9ff);
+        background: linear-gradient(to right,#00f1e199,#0d00ff7c,#00d9ff);
     }
     #home{
-        background: linear-gradient(to right,#00064a99,#0d00ff7c,#00d9ff);
+        background: linear-gradient(to right,#00f1e199,#0d00ff7c,#00d9ff);
         margin: 0;
         height: 64vh;
         border-radius: 0rem;
@@ -135,6 +135,8 @@ div.water-bottle img{
         text-align: center;
     }
     div.water-bottle img{
+        width: 10px;
+        position: top;
         opacity: 0;
         display: flex;
         text-align: center;
@@ -148,12 +150,12 @@ div.water-bottle img{
         font-size: 2.5rem;
         width: 70%;
         
-        margin: 3rem 3rem;
+        margin: 3rem 4rem;
     
     }
     .home-h1-p{
         width: 300px;
-        height: 100px;
+        height: 140px;
         text-align: center;
     }
     
@@ -162,10 +164,28 @@ div.water-bottle img{
         position: relative;       
     }
     div.water-bottle img{
-        max-width: 88px;
-        position: relative;
-        display: flex;
-        text-align: center;
+        position: fixed;
     }
 
+}
+/* INFORMATION      INFORMATION*/
+
+#information{
+    height: 105vh;
+    background-color: brown;
+    margin: 1rem;
+}
+
+.info-h2 h2{
+    margin: 4rem ;
+    text-align: center;
+    font-weight: 600;
+}
+.info-h2-span{
+    color: #2460eb;
+
+}
+.information-container{
+    border: 1px solid red;
+    width: 200px;
 }
