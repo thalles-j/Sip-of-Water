@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'SF-Pro' ;
+    src: url(font/SF-Pro.dmg)format('dmg');
+    
+}
+
+:root{
+    --background-color: #e7e7e7;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    font-family:"SF-Pro", BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#home{
+    background: linear-gradient(to right,#00064a99,#0d00ff7c,#00d9ff);
+    margin: 1rem 3rem 2rem ;
+    height: 85vh;
+    border-radius: 2rem;
+    border: 2px solid rgba(255, 255, 255, 0.678);
+
+}
+
+.home-h1{
+    font-size: 5rem;
+    line-height: 1;
+    font-weight: 700;
+    color: #fff;
+    margin: 5rem 0px 1rem ;
+    
+}
+.home-h1-p{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    opacity: 0.8;
+    height: auto;
+    margin: 1rem;
+    
+    
+}
+div.water-bottle-container{
+    display: flex;
+    padding: 2rem;
+
+}
+div.water-bottle img{
+    width: 172px;
+    display: flex;
+    border: 1px solid red;
+    height: auto;   
+}
+
+@media(max-width:790px){
+    header{
+        background: linear-gradient(to right,#00064a99,#0d00ff7c,#00d9ff);
+    }
+    #home{
+        background: linear-gradient(to right,#00064a99,#0d00ff7c,#00d9ff);
+        margin: 0;
+        height: 64vh;
+        border-radius: 0rem;
+        border: none;
+    
+    }
+    .home-h1{
+        font-size: 2.5rem;
+        width: 240px; 
+    
+    }
+    .home-h1-p{
+        
+        text-align: center;
+    }
+    div.water-bottle-container{
+        display: flex;
+        margin-top: 2rem;
+        padding: 2rem; 
+    }
+    div.water-bottle img{
+        max-width: 76px;
+        width: 80px;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid red;
+          
+    }
+    
+
+}
+@media (max-width: 802px){
+    #home{
+       
+        border: none;
+    
+    }
+    .home-h1{
+        
+        font-size: 2.5rem;
+        display: inline-flex;
+    
+    }
+    div.water-bottle-container{
+        margin-top: 5rem;
+        padding: 5rem; 
+    }
+    div.water-bottle img{
+        max-width: 120px;
+    }
+    .home-h1-p{
+        width: 200px;
+        height: 10px;
+}
+}
+
+@media (max-width: 992px) {
+    .home-h1-p{
+        width: 200px;
+        height: 10px;
+    }
+    
+    div.water-bottle-container{
+        display: flex;
+        margin-bottom: 5rem;
+        
+    
+    }
+    div.water-bottle img{
+        margin-right: 1rem;
+        width: 100px;
+        display: flex;
+        border: 1px solid red;
+        height: auto;
+        
+        
+    }
+
+}
