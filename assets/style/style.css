@@ -8,6 +8,7 @@
 
 :root{
     --background-color: #e7e7e7;
+    --backgroundGradient-color:linear-gradient(to right,#0d00ff7c,#7da2c3,#00d9ff);
 
 }
 
@@ -24,7 +25,7 @@ body{
 }
 
 #home{
-    background: linear-gradient(to right,#00f1e199,#0d00ff7c,#00d9ff);
+    background: var(--backgroundGradient-color);
     margin: 1rem 3rem 2rem ;
     height: 85vh;
     border-radius: 2rem;
@@ -72,10 +73,10 @@ div.water-bottle img{
 
 @media(max-width:575px){
     header{
-        background: linear-gradient(to right,#00f1e199,#0d00ff7c,#00d9ff);
+        background: var(--backgroundGradient-color);
     }
     #home{
-        background: linear-gradient(to right,#00f1e199,#0d00ff7c,#00d9ff);
+        background: var(--backgroundGradient-color);
         margin: 0;
         height: 64vh;
         border-radius: 0rem;
@@ -111,10 +112,10 @@ div.water-bottle img{
 
 @media(max-width:790px){
     header{
-        background: linear-gradient(to right,#00064a99,#0d00ff7c,#00d9ff);
+        background: var(--backgroundGradient-color);
     }
     #home{
-        background: linear-gradient(to right,#00064a99,#0d00ff7c,#00d9ff);
+        background: var(--backgroundGradient-color);
         margin: 0;
         height: 64vh;
         border-radius: 0rem;
