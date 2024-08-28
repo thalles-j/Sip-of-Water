@@ -29,7 +29,7 @@ body{
     margin: 1rem 3rem 2rem ;
     height: 85vh;
     border-radius: 2rem;
-    border: 2px solid rgba(255, 255, 255, 0.678);
+    border: 3px solid rgb(220, 218, 218);
 
 }
 .navbar-light .navbar-nav .nav-link{
@@ -172,9 +172,9 @@ div.water-bottle img{
 /* INFORMATION      INFORMATION*/
 
 #information{
+    background-color: #0034ae;
+    background-image: url(/assets/img/wa);
     height: 105vh;
-    background-color: brown;
-    margin: 1rem;
 }
 
 .info-h2 h2{
@@ -186,7 +186,17 @@ div.water-bottle img{
     color: #2460eb;
 
 }
+.info-h2-span:hover{
+    opacity: 0.8;
+    color: #0034ae;
+}
+
 .information-container{
-    border: 1px solid red;
-    width: 200px;
+    justify-content: center;
+    background-color: #2460eb;
+    border: 3px solid rgb(220, 218, 218);
+}
+.information-div-first p{
+    font-size: 1.6rem;
+    
 }
